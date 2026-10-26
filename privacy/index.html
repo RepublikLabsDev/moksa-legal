@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Moksa</title>
+<meta name="description" content="How the Moksa wallet app handles your information.">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="https://moksa.finance/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #09131A; --secondary: #3B454D; --muted: #5C6872; --line: rgba(9,19,26,.10);
+    --bg: #F6FBFF; --panel: #FFFFFF; --link: #2D5FF5; --brand: #5386FF; --mark: #FFF1B8;
+    --draft-bg: #FDECEA; --draft-ink: #A3261B;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #F6F9FF; --secondary: #C5D2E4; --muted: #ACBCD1; --line: rgba(255,255,255,.12);
+      --bg: #050816; --panel: #0B1427; --link: #AECAFF; --brand: #5386FF; --mark: #5A4A0E;
+      --draft-bg: #3A1512; --draft-ink: #FFB4AB;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--secondary); font: 400 16px/1.65 Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  /* DRAFT banner: delete this block and the .draft element before publishing. */
+  .draft { background: var(--draft-bg); color: var(--draft-ink); font-weight: 600; text-align: center; padding: 10px 16px; font-size: 14px; }
+  header { max-width: 760px; margin: 0 auto; padding: 32px 16px 8px; display: flex; align-items: center; gap: 12px; }
+  header a { display: flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; font-weight: 600; letter-spacing: .18em; }
+  header img { width: 32px; height: 32px; }
+  main { max-width: 760px; margin: 0 auto; padding: 8px 16px 64px; }
+  h1 { color: var(--ink); font-size: 34px; line-height: 1.15; letter-spacing: -.02em; margin: 24px 0 6px; }
+  .effective { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+  nav { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 16px 20px; margin: 0 0 32px; }
+  nav p { margin: 0 0 6px; color: var(--ink); font-weight: 600; font-size: 14px; }
+  nav ol { margin: 0; padding-left: 20px; columns: 2; column-gap: 28px; font-size: 14px; }
+  @media (max-width: 560px) { nav ol { columns: 1; } h1 { font-size: 28px; } }
+  h2 { color: var(--ink); font-size: 22px; line-height: 1.3; margin: 40px 0 10px; scroll-margin-top: 16px; }
+  h3 { color: var(--ink); font-size: 17px; margin: 26px 0 6px; }
+  p, li { margin: 0 0 12px; }
+  ul { padding-left: 22px; margin: 0 0 14px; }
+  strong { color: var(--ink); font-weight: 600; }
+  a { color: var(--link); }
+  code { font-size: .92em; }
+  mark { background: var(--mark); color: inherit; border-radius: 4px; padding: 0 3px; }
+  footer { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="draft">Draft for legal review. Not published. Highlighted text still needs filling in.</div>
+<header><a href="https://moksa.finance/"><img src="https://moksa.finance/favicon.png" alt="">MOKSA</a></header>
+<main>
+<h1>Privacy Policy</h1>
+<p class="effective">Effective date: <mark>[date of publication]</mark></p>
+<nav aria-label="On this page"><p>On this page</p><ol>
+<li><a href="#who-we-are">Who we are</a></li>
+<li><a href="#the-short-version">The short version</a></li>
+<li><a href="#what-stays-on-your-phone">What stays on your phone</a></li>
+<li><a href="#what-leaves-your-phone-and-why">What leaves your phone, and why</a></li>
+<li><a href="#what-we-do-not-collect">What we do not collect</a></li>
+<li><a href="#permissions-the-app-uses">Permissions the app uses</a></li>
+<li><a href="#how-we-use-information">How we use information</a></li>
+<li><a href="#who-receives-information">Who receives information</a></li>
+<li><a href="#where-information-is-processed">Where information is processed</a></li>
+<li><a href="#how-long-information-is-kept">How long information is kept</a></li>
+<li><a href="#security">Security</a></li>
+<li><a href="#your-choices-and-rights">Your choices and rights</a></li>
+<li><a href="#children">Children</a></li>
+<li><a href="#changes-to-this-policy">Changes to this policy</a></li>
+<li><a href="#contact">Contact</a></li>
+</ol></nav>
+<p>This policy explains what information the Moksa app collects, why, who receives it, and the choices you have. It applies to the Moksa mobile app for Android and iOS.</p>
+<h2 id="who-we-are">Who we are</h2>
+<p>Moksa is provided by <mark>[Republik Labs Limited, a company incorporated in Hong Kong, company number [number], registered address [address]]</mark> ("we", "us"). If you have a question about this policy or your information, contact us at <mark>[privacy@moksa domain]</mark>.</p>
+<h2 id="the-short-version">The short version</h2>
+<ul>
+<li><strong>Moksa is a self-custody wallet.</strong> Your recovery phrase, private keys and PIN are created and kept on your phone, encrypted. We never receive them, cannot see them and cannot recover them for you.</li>
+<li><strong>We do not ask for your name, email address, phone number or any account.</strong> You do not sign up to use Moksa.</li>
+<li><strong>To work, the app has to talk to blockchain networks and a few service providers.</strong> That means your public wallet addresses and the transactions you approve are sent to blockchain nodes, and your device's IP address is seen by every service the app connects to.</li>
+<li><strong>We use Google Firebase for app settings and usage statistics, and Sentry for crash reports.</strong> These are described below, including the device identifiers Firebase uses.</li>
+<li><strong>We do not sell your information.</strong></li>
+</ul>
+<h2 id="what-stays-on-your-phone">What stays on your phone</h2>
+<p>The following is stored only on your device and is not sent to us:</p>
+<ul>
+<li>Your recovery phrase(s), private keys and PIN. These are encrypted on the device (XChaCha20-Poly1305) with a key held in your phone's secure hardware-backed storage (Android Keystore or Apple Keychain).</li>
+<li>Your settings: language, display currency, light or dark mode, which networks are shown, whether balances are hidden, whether face or fingerprint unlock and "Lock when you leave" are on, and your choice about alerts.</li>
+<li>Account names, colours and order that you set, and whether each wallet has been backed up.</li>
+<li>Recent recipient addresses you have sent to, websites you saved in Explore, and a cache of your balances so the app opens quickly.</li>
+<li>A count of wrong PIN attempts, used to slow down guessing.</li>
+</ul>
+<p>If you delete the app or log out, this information is removed from the app. <strong>Without your recovery phrase, we cannot restore your wallet.</strong></p>
+<h2 id="what-leaves-your-phone-and-why">What leaves your phone, and why</h2>
+<h3>1. Blockchain networks (needed for the wallet to work)</h3>
+<p>To show your balances and history and to send money, the app connects to public blockchain nodes and explorers for each network you use (for example Ethereum and compatible networks, Bitcoin, Solana and Zcash). These requests include:</p>
+<ul>
+<li>your <strong>public wallet addresses</strong> (for Bitcoin, the app checks several addresses that belong to your wallet, which lets that service see they are linked);</li>
+<li>the <strong>transactions you approve</strong>, already signed on your phone, so they can be broadcast;</li>
+<li>your device's <strong>IP address</strong>, as with any internet connection.</li>
+</ul>
+<p>These services are run by third parties, including <mark>[publicnode.com, llamarpc.com, monad.xyz, mempool.space, blockstream.info, emzy.de, solana.com, Blockchair, Blockscout, Etherscan and Jupiter (token names)]</mark>. We may change the providers we use. Information on a public blockchain, such as your addresses, balances and transactions, is public by design and cannot be deleted by us or anyone else.</p>
+<h3>2. Prices</h3>
+<p>The app fetches market prices from CoinGecko to show values in your chosen currency. Only the list of assets and the currency are sent, not your addresses. CoinGecko sees your IP address.</p>
+<h3>3. Network logos</h3>
+<p>Logos for each network are loaded from GitHub (raw.githubusercontent.com), which sees your IP address and which logos are requested.</p>
+<h3>4. App configuration (Google Firebase Remote Config)</h3>
+<p>Each time it starts, the app fetches settings from Google Firebase Remote Config (for example, which networks and service endpoints to use, and whether an update is required). Firebase receives an app installation identifier, the app version, your platform, language and time zone, and your IP address.</p>
+<h3>5. Usage statistics (Google Analytics for Firebase)</h3>
+<p>The app includes Google Analytics for Firebase. It automatically records events such as the app being opened, sessions, screens viewed and app updates, together with:</p>
+<ul>
+<li>a Firebase installation identifier;</li>
+<li>your device model, operating system and version, language and approximate location derived from your IP address (country or region, not precise location);</li>
+<li>where available, your device's <strong>advertising identifier</strong> (on Android, the Google advertising ID; on iOS, Apple's advertising identifier only if your settings allow it) and, on Android, the app-specific Android ID.</li>
+</ul>
+<p>We do not send your wallet addresses, balances or transactions to Analytics, and we do not use it to show you ads. <mark>[Confirm before publishing: see drafting note 1.]</mark> You can reset or delete your advertising identifier, or opt out of ads personalisation, in your phone's settings.</p>
+<h3>6. Crash and error reports (Sentry)</h3>
+<p>When the app crashes or hits an error, a report is sent to Sentry, hosted in the European Union (Germany). It contains technical details such as the error, where in the app it happened, your device model and operating system, the app version and your IP address. For a sample of sessions, Sentry also receives performance timings.</p>
+<p>We do not send screenshots. Before a report leaves your phone, the app removes anything that looks like a recovery phrase, private key or wallet address, and cuts web addresses down to the name of the service (for example, it keeps "mempool.space" but not the rest of the address).</p>
+<h3>7. App updates (Expo)</h3>
+<p>The app checks Expo's update service (expo.dev) at launch for improvements to the app. Expo receives your platform, the app's version and update channel, an installation identifier and your IP address.</p>
+<h3>8. Cloud backup (optional, iPhone only)</h3>
+<p>If you choose to back up your recovery phrase to iCloud, the app first encrypts it on your phone with a passphrase that only you know (Argon2id key derivation, then XChaCha20-Poly1305). Only the encrypted file goes to your own iCloud storage, together with a small unencrypted file holding the backup date, an optional hint you write, and a short fingerprint derived from your address so the app can match the backup to your wallet. We cannot read your backup, and if you forget the passphrase we cannot recover it. Apple's own privacy policy covers iCloud. <mark>[See drafting note 4.]</mark></p>
+<h3>9. Websites and links you open</h3>
+<p>Explore lists third-party websites and services (for example decentralised exchanges and lending apps), and the app can open block-explorer pages. These open only when you tap them, in an in-app browser or another app, and are governed by those sites' own privacy policies. Moksa does not connect your wallet to them.</p>
+<h2 id="what-we-do-not-collect">What we do not collect</h2>
+<p>We do not collect your name, email address, phone number, contacts, photos or precise location, and the app does not send push notifications. The camera is used only to scan QR codes on your phone, and images are not stored or sent. Face or fingerprint checks are performed by your phone's operating system; we never receive biometric data.</p>
+<h2 id="permissions-the-app-uses">Permissions the app uses</h2>
+<ul>
+<li><strong>Camera:</strong> to scan QR codes for addresses.</li>
+<li><strong>Face ID, Touch ID or fingerprint:</strong> only if you turn on face or fingerprint unlock.</li>
+<li><strong>Internet access:</strong> to connect to the services described above.</li>
+</ul>
+<p><mark>[See drafting note 3 about other permissions currently declared.]</mark></p>
+<h2 id="how-we-use-information">How we use information</h2>
+<p>We use the information described above to:</p>
+<ul>
+<li>operate the wallet: show balances and history, prepare and broadcast the transactions you approve, and show prices;</li>
+<li>keep the app working and secure: deliver updates, choose working service endpoints, and find and fix crashes and errors;</li>
+<li>understand, in aggregate, how the app is used so we can improve it.</li>
+</ul>
+<p><mark>[For readers in the EU, UK and similar regimes, our legal bases are: performance of the service you asked for (wallet functions), and our legitimate interests in keeping the app secure and improving it (crash reports and usage statistics). Legal to confirm the bases and whether consent is needed for Analytics and the advertising identifier.]</mark></p>
+<h2 id="who-receives-information">Who receives information</h2>
+<p>We share information only with the service providers named in this policy, who process it to provide their service: Google (Firebase Remote Config and Analytics), Functional Software, Inc. (Sentry), Expo (650 Industries, Inc.), CoinGecko, GitHub, and the blockchain node and explorer providers listed above. Transactions you approve are broadcast to public blockchain networks. We may also disclose information if required by law, or as part of a merger or sale of our business, in which case this policy continues to apply.</p>
+<p>We do not sell your personal information and do not share it for advertising.</p>
+<h2 id="where-information-is-processed">Where information is processed</h2>
+<p>Our service providers operate in several countries, including the United States and the European Union. Where information is transferred across borders, we rely on <mark>[the safeguards available under applicable law, such as standard contractual clauses]</mark>. Blockchain nodes may be located anywhere in the world.</p>
+<h2 id="how-long-information-is-kept">How long information is kept</h2>
+<ul>
+<li>On your phone: until you log out, remove the wallet or delete the app.</li>
+<li>Crash reports (Sentry): <mark>[90]</mark> days.</li>
+<li>Usage statistics (Google Analytics): <mark>[14 months, or the retention set in our Analytics settings]</mark>.</li>
+<li>Information on public blockchains: permanently, by the nature of blockchains.</li>
+</ul>
+<h2 id="security">Security</h2>
+<p>Your wallet secrets are encrypted on your phone and protected by your PIN, and optionally by your face or fingerprint, with a limit on wrong PIN attempts. Crash reports are filtered to remove anything that looks like a recovery phrase, key or wallet address. No system is perfectly secure: keep your recovery phrase offline and private, and never share it with anyone, including anyone claiming to be from Moksa. <strong>We will never ask for your recovery phrase, private key or PIN.</strong></p>
+<h2 id="your-choices-and-rights">Your choices and rights</h2>
+<ul>
+<li>You can use Moksa without giving us any contact details.</li>
+<li>You can turn networks off in Settings so the app stops checking them.</li>
+<li>You can reset or delete your advertising identifier, or limit ad tracking, in your phone's settings.</li>
+<li>Deleting the app removes the data stored on your phone.</li>
+<li>Depending on where you live (including under Indonesia's Personal Data Protection Law, the EU and UK GDPR, and Australia's Privacy Act), you may have rights to access, correct or delete personal information we hold, to object to or restrict its use, and to complain to a data protection authority. Because we do not hold your name or email, we may need you to give us an identifier (for example, the Firebase installation identifier shown <mark>[where]</mark>) to find your records. To make a request, contact <mark>[privacy@moksa domain]</mark>.</li>
+</ul>
+<h2 id="children">Children</h2>
+<p>Moksa is not intended for anyone under <mark>[18]</mark>, and we do not knowingly collect information from children.</p>
+<h2 id="changes-to-this-policy">Changes to this policy</h2>
+<p>We may update this policy. When we do, we will change the effective date above and, for significant changes, tell you in the app.</p>
+<h2 id="contact">Contact</h2>
+<p><mark>[Republik Labs Limited]</mark> <mark>[Address]</mark> <mark>[privacy@moksa domain]</mark></p>
+</main>
+<footer>Moksa is a self-custody wallet. We will never ask for your recovery phrase, private key or PIN.</footer>
+</body>
+</html>
